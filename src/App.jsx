@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div className="welcome">
-        <h1>Bem-vindo(a)</h1>
+        <h1>Luka Store</h1>
       </div>
     </>
   )
