@@ -1,0 +1,9 @@
+.cart-widget {
+    font-size: 1.5rem;
+    color: white;
+    transition: color 0.3s;
+}
+
+.cart-widget:hover {
+    color: #f39c12;
+}
