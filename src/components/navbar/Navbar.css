@@ -7,7 +7,7 @@
 .navbar {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #333;
     padding: 0.5rem 2rem;
     position: fixed;
@@ -47,10 +47,12 @@
     color: #f39c12;
 }
 
-.cart {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    z-index: 2000; /* Garantir visibilidade */
+.cart{
+    color: white;
+    font-size: 25px;
+}
+
+.cart:hover{
+    cursor: pointer;
 }
 

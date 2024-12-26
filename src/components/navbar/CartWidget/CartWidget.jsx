@@ -2,12 +2,12 @@ import React from "react";
 import { FaShoppingCart } from "react-icons/fa";
 import "./CartWidget.css";
 
-function CartWidget() {
-    return (
-        <div className="cart-widget">
-            <FaShoppingCart size={24} />
-        </div>
-    );
-}
+const CartWidget = () => {
+  return (
+    <div className="cart-icon">
+        <p className="cart"><FaShoppingCart /></p>
+    </div>
+  );
+};
 
 export default CartWidget;
